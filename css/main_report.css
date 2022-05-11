@@ -1,0 +1,392 @@
+body 
+{
+    background-color: #808080;
+}
+
+/*
+仅测试， 不包涵在bg中
+*/
+.div_top
+{
+    width: 100%;
+    background-color: #e9f1f4;
+    text-align: center;
+    height: 24px;
+    border-bottom: solid 1px #a0b5ca;
+}
+
+.div_icp
+{
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    line-height:200%;
+    background-color: #F2F2F2;
+    border: solid 1px #a0b5ca;
+}
+
+.div_bottom
+{
+    height: 24px;
+    width: 100%;
+    background-color: #e9f1f4;
+    border-top: solid 1px #a0b5ca;
+}
+/*
+所有的元素，都必须在bg中， bg的下级名称规则：d_段名
+*/
+.bg
+{
+    clear: both; 
+    margin: 3px auto auto; 
+    overflow: hidden; 
+    width: 100%;    
+    width: 1250px;
+
+    background-color: #ffffff;
+    display:block;
+}
+
+.bg_menu
+{
+	
+    border: solid 1px #a0b5ca;
+	margin: 0px 0px 0px 0px;
+    height: 32px;
+}
+
+.d_left_side
+{
+	position:relative;
+	left:-120px;
+}
+
+.d_userbox
+{
+}
+
+.userbox
+{
+    background-color: #fafafa;
+    font-weight: bold; 
+    font-size: 14px;
+    line-height:200%;
+    height: 28px;
+    
+    
+    margin: 0px 0px 0px 0px;
+    /*
+    border: solid 1px #a0b5ca;*/
+}
+
+.userbox .left
+{
+    FLOAT: left;
+}
+.userbox .right
+{
+    FLOAT: right;
+}
+
+.userbox span, .userbox span a
+{
+	
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+/*菜单*/
+.d_menu
+{
+    
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    LINE-HEIGHT: 26px; 
+    HEIGHT: 26px;
+    color:#364682;
+    font-weight: normal;
+    background-color: #F0F9FF;
+    border: solid 1px #a0b5ca;
+    
+}
+
+.d_menu a
+{
+    float:left;
+    text-decoration:none;
+    color: #00298f;
+    background-color:#C8D7E3;
+    padding: 0px 8px 0px 8px;
+    border-right:1px solid white;
+}
+
+.d_menu a:link 
+{
+	font-weight: normal; color: #00298f; text-decoration: none;
+}
+
+.d_menu a:hover 
+{
+	font-weight: normal; color: #ff0000; text-decoration: underline;
+}
+
+.d_menu ul
+{
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+.d_menu li 
+{
+    display:inline;
+}
+    
+/*标签*/
+.d_tag
+{
+    width: 96%;
+    margin: 0px 0px 0px 1.5%;
+    padding: 0px 0px 0px 8px;
+    LINE-HEIGHT: 26px; 
+    HEIGHT: 26px;
+    color:#364682;
+    font-weight: normal;
+    background-color: #F0F9FF;
+    border-top: solid 1px #a0b5ca;
+    border-bottom: solid 1px #a0b5ca;
+}
+.d_tag span
+{
+    font-weight:normal;
+}
+
+.d_tag_bak
+{
+    width: 96%;
+    margin: 0px 0px 0px 1.5%;
+    padding: 0px 0px 0px 8px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+    COLOR: #364682; 
+    TEXT-DECORATION: underline;
+    LINE-HEIGHT: 26px; 
+    HEIGHT: 26px;
+    background-color: #F0F9FF;
+    border-top: solid 1px #a0b5ca;
+    border-bottom: solid 1px #a0b5ca;
+}
+
+/*导航*/
+.d_nav
+{
+    margin: 0px 0px 0px 0px;
+}
+
+.d_nav .header
+{
+	
+	height: 40px;
+    margin: 6px 0px 0px 0px;
+    background-color: #F0F9FF;
+    border: solid 1px #a0b5ca;
+}
+
+.d_nav .header .more
+{
+    FLOAT: right;
+    font-size: 16px;
+    line-height:240%;
+}
+.d_nav .header .desc
+{
+    FLOAT: left;
+    margin: 16px 0px 0px 0px;
+    font-size: 16px;
+    line-height:240%;
+}
+
+.d_nav .header .myjiathis
+{
+    FLOAT: left;
+    margin: 16px 0px 0px 0px;
+}
+.d_nav .header span
+{
+    FLOAT: left;
+    font-size: 16px;
+    line-height:240%;
+}
+
+/*说明*/
+.d_nav .desc
+{
+    background-color: #F2F2F2;
+    border: solid 1px #a0b5ca;
+}
+
+.d_nav .desc2
+{
+    margin: 3px 0px 0px 0px;
+    background-color: #F2F2F2;
+    border: solid 1px #a0b5ca;
+}
+
+.d_nav .desc span1
+{
+    
+    margin: 0px 0px 0px 0px;
+}
+
+.d_nav span
+{
+    line-height:140%;
+    margin: 0px 0px 0px 20px;
+}
+
+.d_nav span.aa
+{
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    color: red;
+}
+
+/*说明*/
+.d_desc
+{
+}
+
+
+.d_nav table 
+{
+	width: 100%; background-color: #a0b5ca;
+}
+
+.d_nav table th 
+{
+	font-weight: normal; color: #3d497b; line-height: 25px; white-space: nowrap; height: 25px; background-color: #e9effd; text-align: center;
+}
+
+.d_nav table td 
+{
+	font-weight: normal; color: blue; line-height: 24px; white-space: nowrap; height: 24px; background-color: #ffffff; text-align: center;
+}
+
+.d_nav table th.txt_left 
+{
+	text-align: left;
+}
+.d_nav table th.txt_right 
+{
+	text-align: right;
+}
+
+.d_nav table td.txt_left 
+{
+	text-align: left;
+}
+.d_nav table td.txt_right 
+{
+	text-align: right;
+}
+
+/*条件、选项*/
+.d_nav .opt
+{
+    
+    line-height:240%;
+    background-color: #F2F2F2;
+    
+    border-left: solid 1px #a0b5ca;
+    border-right: solid 1px #a0b5ca;
+}
+
+.d_nav .opt select
+{
+    /*
+    margin: 3px 0px 0px 0px;
+    height:26px;
+    font-size: 16px;
+    */
+}
+
+.d_ad_right2
+{
+    FLOAT: right;
+	position:relative;
+	left:-30px;
+
+}
+
+.d_ad
+{
+	text-align: center;
+    background-color: #e6f3f9;
+}
+.d_ad2
+{
+    FLOAT: left;
+    background-color: #e6f3f9;
+}
+
+.d_ad_right
+{
+    FLOAT: right;
+    background-color: #e6f3f9;
+}
+
+.d_ad_left
+{
+    FLOAT: left;
+    background-color: #e6f3f9;
+}
+.d_ad_none
+{
+	display:none;
+}
+
+.clr_red
+{
+    color: #FF0000;
+}
+
+.content 
+{
+	clear: both; 
+	padding-right: 10px; 
+	padding-left: 10px; 
+	font-size: 14px; 
+	padding-bottom: 10px; 
+	line-height: 180%; 
+	padding-top: 10px; 
+	text-align: left;
+}
+
+
+
+
+.declare 
+{
+	clear: both; padding-right: 10px; padding-left: 10px; font-size: 12px; padding-bottom: 10px; color: #999; padding-top: 10px; text-align: left;
+}
+
+.txt_left
+{
+	text-align: left;
+}
+
+.txt_right
+{
+	text-align: right;
+}
+
+.float_left
+{
+	float: left;
+}
+
+.float_right
+{
+	float: right;
+}

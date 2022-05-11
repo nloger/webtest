@@ -1,0 +1,143 @@
+body {
+	padding-right: 0px; padding-left: 0px; background: #ffffff; padding-bottom: 0px; margin: 0px; color: #000000; padding-top: 0px;
+}
+
+body {
+	font-size: 12px;
+}
+div {
+	font-size: 12px;
+}
+table {
+	font-size: 12px;
+}
+p {
+	font-size: 12px;
+}
+ul {
+	font-size: 12px;
+}
+li {
+	font-size: 12px;
+}
+td {
+	font-size: 12px;
+}
+pre {
+	font-size: 12px;
+}
+dt {
+	font-size: 12px;
+}
+dd {
+	font-size: 12px;
+}
+select {
+	font-size: 12px;
+}
+input {
+	font-size: 12px;
+}
+textarea {
+	font-size: 12px;
+}
+form {
+	font-size: 12px;
+}
+h1 {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+h2 {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+h3 {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+h4 {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+h5 {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+h6 {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+ul {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+li {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+form {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px;
+}
+img {
+	border-top-width: 0px; padding-right: 0px; padding-left: 0px; border-left-width: 0px; border-bottom-width: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px; border-right-width: 0px
+}
+a {
+	font-weight: normal;
+}
+a:link {
+	font-weight: normal; color: #00298f; text-decoration: none;
+}
+a:visited {
+	font-weight: normal; color: #00298f; text-decoration: none;
+}
+a:hover {
+	font-weight: normal; color: #ff0000; text-decoration: underline;
+}
+
+
+span.red a:link {
+	font-weight: normal; color: #ff0000; text-decoration: none;
+}
+span.red a:visited {
+	font-weight: normal; color: #ff0000; text-decoration: none;
+}
+span.red a:hover {
+	font-weight: normal; color: #ff0000; text-decoration: underline;
+}
+.b {
+	font-weight: bold;
+}
+.s1 {
+	clear: both; overflow: hidden; height: 1px;
+}
+.s3 {
+	clear: both; overflow: hidden; height: 3px;
+}
+.s6 {
+	clear: both; overflow: hidden; height: 6px;
+}
+.s8 {
+	clear: both; overflow: hidden; height: 8px;
+}
+.s9 {
+	clear: both; overflow: hidden; height: 6px;
+}
+.s12 {
+	clear: both; overflow: hidden; height: 12px;
+}
+span.up {
+	color: #ff0000;
+}
+span.down {
+	color: #009900;
+}
+span.red {
+	color: #ff0000;
+}
+span.green {
+	color: #009900;
+}
+span.b {
+	font-weight: bold;
+}
+span.gray {
+	color: #666666;
+}
+
+
+.clear {
+	clear: both; overflow: hidden;
+}
