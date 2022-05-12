@@ -11,7 +11,7 @@ HTML_TMPL = r"""<?xml version="1.0" encoding="UTF-8"?>
 <div class="bg">
 <div class="d_nav">
 <table cellpadding="0" cellspacing="1"> <tr><th>No</th><th>URL</th><th>Status</th></tr>
-%(table)s
+%(tabletd)s
 </table>
 </div>
 </div>
