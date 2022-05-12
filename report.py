@@ -152,15 +152,15 @@ def test_click_refresh_button_all(urls):
     #        'https://opensea.io/assets/solana/B6FSU5gS9XNtXDrjrJNkzkr7qSAU3iLEFELw5HGLb2mS'}
     
     tditemlist = get_tditem_list_by_urls(urls)
-    #desired_capabilities = DesiredCapabilities.CHROME # 修改页面加载策略
-    #desired_capabilities["pageLoadStrategy"] = "none" # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出#注：2021/12/20 在谷歌浏览器96.0.4664.110上验证出效果。
+    desired_capabilities = DesiredCapabilities.CHROME # 修改页面加载策略
+    desired_capabilities["pageLoadStrategy"] = "normal"
 
-    driver = webdriver.Chrome("chromedriver.exe")
-    driver.maximize_window()
+    #driver = webdriver.Chrome("chromedriver.exe")
+    #driver.maximize_window()
     for ditem in tditemlist:
         try:
-            #driver = webdriver.Chrome("chromedriver.exe")
-            #driver.maximize_window()
+            driver = webdriver.Chrome("chromedriver.exe")
+            driver.maximize_window()
             ditem.Status = ""
             driver.get(ditem.Url)
             element = driver.find_element(By.CSS_SELECTOR,  ".jdSrqf:nth-child(1)")
@@ -180,9 +180,9 @@ def test_click_refresh_button_all(urls):
             ditem.Status = ditem.Status + "Error,"
         
         finally:
-            time.sleep(10)
-            #driver.quit()
-    driver.quit()    
+            time.sleep(2)
+            driver.quit()
+    #driver.quit()    
     tabletd = gen_tabletd(tditemlist)
     title = "web auto test report"
     stylesheet = ""
@@ -210,5 +210,9 @@ def test_get_url_to_report():
 #gen_tabletd_by_urls(urls)
 #test_click_refresh_button_all()
 #test_get_url_to_report()
+
+#获取urls，对应步骤1
 urls = test_get_url(in_url = "https://opensea.io/collection/carton-kids", get_limit = 5)
+
+#点击refresh按钮，对应步骤2，3，4，5
 test_click_refresh_button_all(urls)
