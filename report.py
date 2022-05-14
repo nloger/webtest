@@ -96,8 +96,8 @@ def test_click():
 
 #返回urls集合
 def test_get_url(in_url = "https://opensea.io/collection/carton-kids", get_limit = 50):
-    desired_capabilities = DesiredCapabilities.CHROME # 修改页面加载策略
-    desired_capabilities["pageLoadStrategy"] = "none" # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出#注：2021/12/20 在谷歌浏览器96.0.4664.110上验证出效果。
+    #desired_capabilities = DesiredCapabilities.CHROME # 修改页面加载策略
+    #desired_capabilities["pageLoadStrategy"] = "none" # 注释这两行会导致最后输出结果的延迟，即等待页面加载完成再输出#注：2021/12/20 在谷歌浏览器96.0.4664.110上验证出效果。
 
     driver = webdriver.Chrome("chromedriver.exe")
     driver.maximize_window()
@@ -131,7 +131,7 @@ def test_get_url(in_url = "https://opensea.io/collection/carton-kids", get_limit
                 if url.get_attribute("href") is not None and get_limit > len(urls):
                     urls.add(url.get_attribute("href"))
                     #print(url.get_attribute("href"))
-            #time.sleep(1)
+            time.sleep(1)
             #print("-------------------------------------------------------")
 
         get_count = len(urls)
